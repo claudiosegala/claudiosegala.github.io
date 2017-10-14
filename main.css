@@ -2,5 +2,6 @@
   display: flex;
   flex-direction: column;
   width: 500px;
+  background: red;
   font-family: 'Roboto', sans-serif;
 }
