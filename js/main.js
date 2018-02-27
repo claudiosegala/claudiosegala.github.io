@@ -1,5 +1,4 @@
-var open_link = function () {
-	var project = event.target.id;
+var open_link = function (project) {
 	var newUrl = "https://github.com/claudiosegala/" + project;
-	document.location.replace(newUrl);
+	document.location.href = newUrl;
 }
