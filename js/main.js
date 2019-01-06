@@ -9,7 +9,7 @@ var init = function () {
 	var particleJSOptions = {
 		"particles": {
 		  "number": {
-			"value": 80,
+			"value": 60,
 			"density": {
 			  "enable": true,
 			  "value_area": 800
@@ -44,11 +44,11 @@ var init = function () {
 			}
 		  },
 		  "size": {
-			"value": 10,
-			"random": true,
+			"value": 1,
+			"random": false,
 			"anim": {
-			  "enable": false,
-			  "speed": 80,
+			  "enable": true,
+			  "speed": 50,
 			  "size_min": 0.1,
 			  "sync": false
 			}
@@ -117,8 +117,10 @@ var init = function () {
 		"retina_detect": true
 	};
 
+	var jsonUri = "data:text/plain;base64,"+ window.btoa(JSON.stringify(particleJSOptions));
+
 	/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-	particlesJS.load('particles-js', particleJSOptions, function() {
+	particlesJS.load('particles-js', jsonUri, function() {
 		console.log('callback - particles.js config loaded');
 		
 	});
