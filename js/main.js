@@ -3,9 +3,9 @@ console.log('Hello there');
 var open_link = function (project) {
 	var newUrl = "https://github.com/claudiosegala/" + project;
 	document.location.href = newUrl;
-}
+};
 
-var init = function () {
+var startParticleJS = function () {
 	var particleJSOptions = {
 		"particles": {
 		  "number": {
@@ -62,7 +62,7 @@ var init = function () {
 		  },
 		  "move": {
 			"enable": true,
-			"speed": 12,
+			"speed": 3,
 			"direction": "none",
 			"random": false,
 			"straight": false,
@@ -122,8 +122,11 @@ var init = function () {
 	/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 	particlesJS.load('particles-js', jsonUri, function() {
 		console.log('callback - particles.js config loaded');
-		
 	});
+};
+
+var init = function () {
+	//startParticleJS();
 };
 
 init();
