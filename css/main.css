@@ -48,14 +48,14 @@ a {
 	
 	font-family: Roboto, sans-serif;
 	font-weight: 500;
-	font-size: 17px;
+	font-size: 20px;
 	color: white;
 }
 
 .hi {
 	font-family: Roboto, sans-serif;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 50px;
 }
 
 .info {
@@ -65,17 +65,8 @@ a {
 	line-height: 27px;
 	font-family: Roboto, sans-serif;
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 23px;
 	color: white;
-}
-
-.contact {
-	padding-top: 5px;
-	display: flex;
-	justify-content: space-between;
-	text-align: center;	
-	font-weight: bold;
-	width: 350px;
 }
 
 /* .box-img {
