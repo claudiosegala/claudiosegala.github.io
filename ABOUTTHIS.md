@@ -5,6 +5,7 @@ The goal it is not to show my frontend skills or to show my design skill, but to
 
 ## Based On
 
++ https://samshadwell.me/
 + https://andrewzah.com/
 + http://nik.org/
 + https://terkel.com/ 
