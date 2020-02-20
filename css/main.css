@@ -2,6 +2,8 @@ body {
 	padding: 0;
 	margin: 0;
 	background: #EAECEE;
+	display: flex;
+	justify-content: center;
 }
 
 a { 
@@ -22,16 +24,7 @@ a {
 
 .container {
 	max-width: 700px;
-	max-height: 400px;
 	padding: 15px;
-
-	position:absolute;
-	left:0; 
-	right:0;
-	top:0; 
-	bottom:0;
-	margin:auto;
-	overflow:auto;
 
 	white-space: pre-wrap; /* css-3 */
 	white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
@@ -57,6 +50,16 @@ a {
 	font-family: Roboto, sans-serif;
 	font-weight: 500;
 	font-size: 23px;
+}
+
+photo-box {
+	display: flex;
+	justify-content: center;
+}
+
+photo {
+	border-radius: 50%;
+	width 120px;
 }
 
 /* .box-img {
