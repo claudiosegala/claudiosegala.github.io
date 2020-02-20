@@ -52,12 +52,12 @@ a {
 	font-size: 23px;
 }
 
-photo-box {
+.photo-box {
 	display: flex;
 	justify-content: center;
 }
 
-photo {
+.photo {
 	border-radius: 50%;
 	width 120px;
 }
