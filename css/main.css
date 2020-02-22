@@ -36,7 +36,7 @@ a {
 	font-size: 20px;
 }
 
-.info {
+.container-about {
 	margin: 15px;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -46,7 +46,13 @@ a {
 	font-size: 23px;
 }
 
-.photo-box {
+.container-project {
+	margin: 15px;
+	font-family: Roboto, sans-serif;
+	font-weight: 500;
+}
+
+.container-photo {
 	display: flex;
 	justify-content: center;
 }
